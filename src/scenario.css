@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body {
+  font-family: 'Anek Malayalam', sans-serif;
+  background: rgb(252, 254, 255);
+  color: #11052c;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0 30px;
+}
+
+
+.options{
+  align-items:center;
+}
+
+.image{
+  width: 190px;
+  height: 100px;
+  margin: 10px;
+}
+
+.qheading{
+  padding-left: 40px;
+}
+
+main{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  /* background: url('../assets/background_image.jpg'); */
+  background-color : black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.quiz-container {
+  max-width: 500px;
+  min-width: 250px;
+  background: #ffffff;
+  border-radius: 4px;
+  margin-top: 100px;
+  padding: 30px 60px;
+}
+
+.quiz-container .active-question-no {
+  font-size: 32px;
+  font-weight: 500;
+  color: #800080;
+}
+
+.quiz-container .total-question {
+  font-size: 16px;
+  font-weight: 500;
+  color: #e0dee3;
+}
+
+.quiz-container h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.quiz-container ul {
+  margin-top: 20px;
+  margin-left: -40px;
+}
+
+.quiz-container ul li {
+  text-decoration: none;
+  list-style: none;
+  color: #2d264b;
+  font-size: 16px;
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 16px;
+  padding: 11px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.quiz-container ul .selected-answer {
+  background: #ffd6ff;
+  border: 1px solid #800080;
+}
+
+.quiz-container button {
+  background: linear-gradient(90.04deg, #0200fb 0.03%, #00ffd5 150.96%);
+  border-radius: 4px;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 16px 48px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 36px;
+}
+
+.quiz-container button:disabled {
+  background: #e7e8e9;
+  color: #9fa3a9;
+  cursor: not-allowed;
+}
+
+.flex-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.result h3 {
+  font-size: 24px;
+  letter-spacing: 1.4px;
+  text-align: center;
+}
+
+.result p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.result p span {
+  color: #800080;
+  font-size: 22px;
+}
+
+.scenario {
+  font-size: 20px;
+  font-weight: 20px;
+}
+
+.start-quiz{
+  right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .image {
+    width: 100px;
+    height: 50px;
+  }
+}
