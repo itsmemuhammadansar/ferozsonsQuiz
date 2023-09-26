@@ -10,7 +10,6 @@ body {
   padding: 0 30px;
 }
 
-
 .options{
   align-items:center;
 }
@@ -58,7 +57,7 @@ main{
 .quiz-container .total-question {
   font-size: 16px;
   font-weight: 500;
-  color: #e0dee3;
+  color: #c6c6c6;
 }
 
 .quiz-container h2 {
@@ -78,7 +77,7 @@ main{
   color: #2d264b;
   font-size: 16px;
   background: #ffffff;
-  border: 1px solid #eaeaea;
+  border: 1px solid #800080;;
   border-radius: 16px;
   padding: 11px;
   margin-top: 15px;
@@ -100,6 +99,7 @@ main{
   border: none;
   cursor: pointer;
   margin-top: 36px;
+  /* margin: 30px; */
 }
 
 .quiz-container button:disabled {
@@ -130,12 +130,19 @@ main{
 }
 
 .scenario {
-  font-size: 20px;
-  font-weight: 20px;
+  font-size: 35px;
+  font-weight: 400;
 }
+
 
 .start-quiz{
   right: 10px;
+}
+
+.correct-answer-highlight{
+  color: green;
+  font-size: 15px;
+  font-weight: 200;
 }
 
 @media only screen and (max-width: 600px) {

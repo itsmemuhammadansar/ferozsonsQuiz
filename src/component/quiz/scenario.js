@@ -117,7 +117,7 @@ function App() {
 //   }, [showResult, history]);
 
   return (
-    <div className="quiz-container">
+    <div className="quiz-container" style={{background:"#e7e6e6"}}>
       {!quizStarted ? (
         <div>
           <p><span className="scenario"> Scenario:  </span> Mr Saleem is a 60-year-old man who has been living with cirrhosis of the liver for several years.
