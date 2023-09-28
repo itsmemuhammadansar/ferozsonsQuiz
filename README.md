@@ -1,9 +1,5 @@
 # Multiple Choice Quiz (ReactJS)
 
-<img width="500" alt="Screen Shot 2022-01-19 at 6 19 13 PM" src="">
-
-<img width="400" alt="Screen Shot 2022-01-19 at 6 19 32 PM" src="">
-
 ## Improvements
 
 ### Easy 🟢 
