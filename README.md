@@ -1,8 +1,8 @@
 # Multiple Choice Quiz (ReactJS)
 
-<img width="500" alt="Screen Shot 2022-01-19 at 6 19 13 PM" src="https://user-images.githubusercontent.com/36372968/150233909-40f43663-f001-4315-b7ea-970bf54a9a73.png">
+<img width="500" alt="Screen Shot 2022-01-19 at 6 19 13 PM" src="">
 
-<img width="400" alt="Screen Shot 2022-01-19 at 6 19 32 PM" src="https://user-images.githubusercontent.com/36372968/150233956-8550e069-05e2-4bcd-bf23-270cad6cc590.png">
+<img width="400" alt="Screen Shot 2022-01-19 at 6 19 32 PM" src="">
 
 ## Improvements
 
